@@ -6,7 +6,7 @@
 
 (function($){
 	$(function() {
-    	$('[data-jq]').each(function() {
+		$('[data-jq]').each(function() {
 			var $this = $(this);
 			$this[$this.data('jq')]();
 		});
